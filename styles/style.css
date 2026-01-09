@@ -171,6 +171,27 @@ nav ul a{
 }
 .capture-div{
     display: flex;
+    align-items: center;
     gap: 5px;
     margin-top: 10px;
+    
 }
+.capture-div img{
+
+}
+
+ /* ready to think  */
+
+    .ready-to{
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+ .ready-to p{
+    color: rgba(98, 115, 130, 1);
+ }
+ .ready-to h1,p,button{
+    margin-top: 20px;
+ }
