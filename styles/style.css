@@ -176,9 +176,7 @@ nav ul a{
     margin-top: 10px;
     
 }
-.capture-div img{
 
-}
 
  /* ready to think  */
 
@@ -194,4 +192,37 @@ nav ul a{
  }
  .ready-to h1,p,button{
     margin-top: 20px;
+ }
+
+ /* footer  */
+
+ footer{
+    margin-top: 120px;
+    background-color: #001931;
+    height: 280px;
+ }
+
+ .footer-div{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    
+ }
+ .social-link{
+    color: #FFFFFF;
+ }
+ footer p{
+    color: rgba(250, 250, 250, 0.773);
+    text-align: center;
+    font-size: 12px;
+    
+ }
+
+ .line{
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    width: 85%;
+    margin: 0 auto;
  }
