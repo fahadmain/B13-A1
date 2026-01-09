@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* navbar style  */
+nav{
+    max-width: 1200px;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.logo img{
+    width: 70px;
+    height: 35px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.848);
+    font-size: 8px;
+
+}
+
+
+/* button style  */
+.btn{
+    background-color: #30B868;
+    border: none;
+    border-radius: 3px;
+    font-size: 6px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    height: 17px;
+    padding: 4px 6px;
+    
+}
