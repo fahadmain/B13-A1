@@ -32,7 +32,7 @@ nav ul a{
     color: rgba(0, 0, 0, 0.759);
     font-size: 16px;
 
-}
+} 
 
 
 /* button style  */
@@ -40,10 +40,67 @@ nav ul a{
     background-color: #30B868;
     border: none;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: rgba(255, 255, 255, 1);
-    height: 25px;
-    padding: 5px 8px;
+    height: 30px;
+    padding: 8px;
+    cursor: pointer;
+
     
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+/* hero section  */
+
+.thinking{
+    background-image: url("../assets/hero-bg.png");
+    
+    height: 450px;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.btn-thinking{
+    border-radius: 20px;
+    color: #30B868;
+    padding: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn-thinking:hover{
+    background-color: aqua;
+}
+
+.structured{
+    margin-top: 1opx;
+    font-size: 65px;
+}
+
+.private-space{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.585);
+    font-size: 14px;
+}
+
+.think-buttons{
+    margin-top: 15px;
+}
+.see-btn{
+    margin-left: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 30px;
+    padding: 8px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.see-btn:hover{
+    background-color: aqua;
 }
