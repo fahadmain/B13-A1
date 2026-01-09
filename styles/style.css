@@ -104,3 +104,42 @@ nav ul a{
 .see-btn:hover{
     background-color: aqua;
 }
+
+/* notes section  */
+
+.notes-section{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.notes-section h1,h3{
+    color: rgba(0, 25, 49, 1);
+}
+
+.notes-section p{
+    color: rgba(98, 115, 130, 1);
+    margin-top: 12px;
+}
+
+.Scattered-notes {
+    display: flex;
+    margin-top: 100px;
+}
+
+.Scattered-notes img{
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.Scattered-notes h3{
+    margin-top: 20px;
+}
+
+.Scattered-notes p{
+    margin-top: 15px;
+    font-size: 14px;
+}
